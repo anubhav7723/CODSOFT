@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#page1 {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(20, 1, 1);
+}
+
+#nav-bar {
+    height: 10vh;
+    width: 100vw;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo {
+    height: 75px;
+    width: 200px;
+    background-color: black;
+    margin-left: 30px;
+    background-image: url(Screenshot\ 2025-01-10\ 154719.png);
+    background-size: contain;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.boxes:hover {
+    cursor: pointer;
+}
+
+#content {
+    width: 50vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.boxes i {
+    font-size: 1.5rem;
+}
+
+#box {
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+}
+
+#information {
+    height: 40vh;
+    width: 50vw;
+    margin-top: 20vh;
+    margin-left: 10vw;
+    color: white;
+    background-color: rgb(20, 1, 1);
+}
+
+#information h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3rem;
+    margin-top: 5px;
+}
+
+#information h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3rem;
+    margin-top: 10px;
+}
+
+#information h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.6rem;
+    margin-top: 20px;
+}
+
+#photo {
+    height: 400px;
+    width: 350px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    margin-top: 15vh;
+    margin-left: 10vw;
+    background-image: url(WhatsApp\ Image\ 2025-01-23\ at\ 00.33.50_28084751.jpg);
+    background-size: cover;
+}
+
+#page2 {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(20, 1, 1);
+}
+
+#about-section {
+    height: 45vh;
+    width: 80vw;
+    background-color: rgb(20, 1, 1);
+    color: white;
+    padding: 2vh 0;
+    padding-left: 10vw;
+}
+
+#about {
+    padding-top: 50px;
+    padding-left: 50px;
+    font-size: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#line-1 {
+    height: 2.5px;
+    width: 20.2vw;
+    background-color: white;
+}
+
+#about-text {
+    margin-top: 20px;
+    width: 70vw;
+    padding-left: 50px;
+}
+
+#about-text p {
+    font-size: 1.5rem;
+}
+
+.content-section {
+    height: 50vh;
+    width: 100vw;
+    background-color: rgb(20, 1, 1);
+    display: flex;
+}
+
+.pannel {
+    height: 30vh;
+    width: 25vw;
+    background-color: rgb(20, 1, 1);
+    color: white;
+    margin-left: 10vw;
+    line-height: 70px;
+}
+
+.pannel p {
+    letter-spacing: 1px;
+}
+
+#skills {
+    padding-left: 50px;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#skills:hover {
+    cursor: pointer;
+}
+
+#edu {
+    padding-left: 50px;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#edu:hover {
+    cursor: pointer;
+}
+
+#exp {
+    padding-left: 50px;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#exp:hover {
+    cursor: pointer;
+}
+
+.skills-content p {
+    margin-top: 2px;
+}
+
+.hadding {
+    font-size: 1.5rem;
+}
+
+.line {
+    height: 1.5px;
+    width: 5vw;
+    background-color: white;
+    margin-top: 0.3rem;
+}
+
+.skills-content {
+    height: 30vh;
+    background-color: rgb(20, 1, 1);
+    color: white;
+    font-size: 1.3rem;
+    position: absolute;
+    z-index: 2;
+    margin-left: 35vw;
+    opacity: 1;
+    scale: 1;
+}
+
+.exp-content {
+    height: 30vh;
+    background-color: rgb(20, 1, 1);
+    color: white;
+    font-size: 1.3rem;
+    position: absolute;
+    z-index: 2;
+    margin-left: 35vw;
+    opacity: 1;
+    scale: 1;
+}
+
+.edu-content {
+    height: 30vh;
+    background-color: rgb(20, 1, 1);
+    color: white;
+    font-size: 1.3rem;
+    position: absolute;
+    z-index: 2;
+    margin-left: 35vw;
+    opacity: 1;
+    scale: 1;
+}
+
+.hide {
+    display: none;
+}
+#page3 {
+    height: 100vh;
+    width: 100vw;
+    background-color: blue;
+}
