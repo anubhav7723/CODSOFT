@@ -53,8 +53,3 @@ function eduAnimation(){
     })
 }
 
-// let about=document.querySelector(".about");
-// let page2=document.querySelector("#page2");
-// about.addEventListener("click",()=>{
-   
-// })
