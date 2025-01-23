@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <div class="container">
+        <input readonly id="display"></input>
+        <div class="game">
+            <button onclick="displayValue('7')"  class="keys">7</button>
+            <button onclick="displayValue('8')"  class="keys">8</button>
+            <button onclick="displayValue('9')"  class="keys">9</button>
+            <button onclick="displayValue('+')"  class="keys operators">+</button>
+            <button onclick="displayValue('4')"  class="keys">4</button>
+            <button onclick="displayValue('5')"  class="keys">5</button>
+            <button onclick="displayValue('6')"  class="keys">6</button>
+            <button onclick="displayValue('-')"  class="keys operators">-</button>
+            <button onclick="displayValue('1')"  class="keys">1</button>
+            <button onclick="displayValue('2')"  class="keys">2</button>
+            <button onclick="displayValue('3')"  class="keys">3</button>
+            <button onclick="displayValue('*')"  class="keys operators">*</button>
+            <button onclick="displayValue('/')"  class="keys operators">/</button>
+            <button onclick="displayValue('.')"  class="keys operators">.</button>
+
+            <button onclick="Clear()"  class="keys operators">C</button>
+            <button onclick="calculate()" value="=" class="keys operators">=</button>           
+        </div>
+   </div>
+</body>
+<script src="script.js"></script>
+
+</html>
